@@ -84,11 +84,13 @@ matz = {
           :languages => ["C"]
         }
      }
+  
 
   programmer_hash[:yukihiro_matsumoto] = {
    :known_for => "Ruby",
   :languages => ["LISP", "C"]
- }
+  }
+  
   programmer_hash
 
     
@@ -134,5 +136,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-
+  programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+  programmer_hash
+  
 end
